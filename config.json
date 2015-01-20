@@ -1,0 +1,121 @@
+{
+  "participants": [
+    {
+      "name": "Alan Turing",
+      "preferences": [2, 7, 0, 9, 6, 10, 11, 4, 5, 13, 12, 14]
+    },
+    {
+      "name": "Tim Berners-Lee",
+      "preferences": [9, 11, 7, 1, 2, 4, 8, 3, 0, 10, 12, 6]
+    },
+    {
+      "name": "Donald Knuth",
+      "preferences": [11, 8, 2, 13, 4, 14, 5, 7, 0, 6, 12, 3]
+    },
+    {
+      "name": "Edsger W. Dijkstra",
+      "preferences": [3, 13, 2, 6, 12, 0, 5, 11, 7, 14, 8, 10]
+    },
+    {
+      "name": "Bjarne Stroustrup",
+      "preferences": [9, 2, 4, 3, 8, 7, 0, 11, 10, 5, 13, 12]
+    },
+    {
+      "name": "Linus Torval",
+      "preferences": [5, 0, 11, 10, 3, 8, 7, 13, 9, 4, 12, 1]
+    },
+    {
+      "name": "Dennis Ritchie",
+      "preferences": [10, 7, 2, 11, 13, 12, 4, 1, 3, 0, 8, 14]
+    },
+    {
+      "name": "Ada Lovelace",
+      "preferences": [1, 6, 9, 12, 14, 3, 7, 4, 13, 11, 5, 10]
+    },
+    {
+      "name": "Whitfield Diffie",
+      "preferences": [4, 3, 2, 1, 10, 6, 12, 5, 9, 8, 0, 13]
+    },
+    {
+      "name": "Martin Hellman",
+      "preferences": [0, 1, 13, 14, 2, 6, 12, 8, 4, 9, 7, 5]
+    }
+  ],
+  "competitions": [
+    {
+      "name": "Scavenger hunt",
+      "date": "Friday",
+      "time": "Evening"
+    },
+    {
+      "name": "Embedded",
+      "date": "Friday",
+      "time": "Evening"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "date": "Friday",
+      "time": "Evening"
+    },
+    {
+      "name": "Relay Programming",
+      "date": "Saturday",
+      "time": "Morning"
+    },
+    {
+      "name": "TCS",
+      "date": "Saturday",
+      "time": "Morning"
+    },
+    {
+      "name": "Operating System",
+      "date": "Saturday",
+      "time": "Morning"
+    },
+    {
+      "name": "Software Engineering",
+      "date": "Saturday",
+      "time": "Afternoon"
+    },
+    {
+      "name": "Machine learning",
+      "date": "Saturday",
+      "time": "Afternoon"
+    },
+    {
+      "name": "Web Development",
+      "date": "Saturday",
+      "time": "Afternoon"
+    },
+    {
+      "name": "Gaming",
+      "date": "Saturday",
+      "time": "Evening"
+    },
+    {
+      "name": "Parallelisme",
+      "date": "Saturday",
+      "time": "Evening"
+    },
+    {
+      "name": "Database",
+      "date": "Saturday",
+      "time": "Evening"
+    },
+    {
+      "name": "Sport",
+      "date": "Sunday",
+      "time": "Morning"
+    },
+    {
+      "name": "Corpo",
+      "date": "Sunday",
+      "time": "Morning"
+    },
+    {
+      "name": "Extreme Programming",
+      "date": "Sunday",
+      "time": "Morning"
+    }
+  ]
+}
