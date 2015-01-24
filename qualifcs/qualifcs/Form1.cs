@@ -96,7 +96,7 @@ namespace qualifcs
             Participant p = (Participant)lstBoxPart.SelectedItem;
             Competition c = (Competition)lstboxCompe.SelectedItem;
 
-            if (p != null && c != null && c.AssignationDisponible > 0)
+            if (p != null && c != null && c.AssignationDisponible > 0 && !p.Assigne.Contains(c) && !c.Assignation.Contains(p))
             {
                 if (CompesDansListe(c, p.Assigne))
                     MessageBox.Show("T SAOUL! LE DUDE FAIT DEJA UNE COMPE A CE MOMENT LA! MAIS JE LAJOUTE PAREILLE!!!");
@@ -140,15 +140,31 @@ namespace qualifcs
 
         private void lstboxCompe_DoubleClick(object sender, EventArgs e)
         {
-            Competition p = (Competition)(((ListBox)sender).SelectedItem);
+            Competition c = (Competition)(((ListBox)sender).SelectedItem);
 
-            StringBuilder toPrint = new StringBuilder(p.Name + Environment.NewLine + Environment.NewLine);
-            toPrint.Append("When :" + p.Date + " " + p.Time + Environment.NewLine);
+            StringBuilder toPrint = new StringBuilder(c.Name + Environment.NewLine + Environment.NewLine);
+            toPrint.Append("When :" + c.Date + " " + c.Time + Environment.NewLine);
             toPrint.Append("Assigne :" + Environment.NewLine);
-            foreach (var assignation in p.Assignation)
+            foreach (var assignation in c.Assignation)
             {
                 toPrint.Append(assignation.Name + Environment.NewLine);
             }
+
+            toPrint.Append("Preferance ordered :" + Environment.NewLine);
+            Dictionary<Participant, int> dic = new Dictionary<Participant, int>();
+            foreach (var pa in lstParticipant)
+            {
+                int index = pa.Preference.IndexOf(c);
+                if (index != -1)
+                {
+                    dic.Add(pa, index);
+                }
+            }
+            foreach (var kv in dic.OrderBy(d => d.Value))
+            {
+                toPrint.Append((kv.Value+1) + ") " + kv.Key.Name + Environment.NewLine);
+            }
+
             MessageBox.Show(toPrint.ToString());
         }
 
