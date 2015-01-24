@@ -1,0 +1,10 @@
+C:\Users\flangelier\code\ets\cs\qualif_csgames_2015\qualifcs\qualifcs\bin\Debug\qualifcs.exe
+C:\Users\flangelier\code\ets\cs\qualif_csgames_2015\qualifcs\qualifcs\bin\Debug\qualifcs.pdb
+C:\Users\flangelier\code\ets\cs\qualif_csgames_2015\qualifcs\qualifcs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\flangelier\code\ets\cs\qualif_csgames_2015\qualifcs\qualifcs\bin\Debug\Newtonsoft.Json.xml
+C:\Users\flangelier\code\ets\cs\qualif_csgames_2015\qualifcs\qualifcs\obj\Debug\qualifcs.csprojResolveAssemblyReference.cache
+C:\Users\flangelier\code\ets\cs\qualif_csgames_2015\qualifcs\qualifcs\obj\Debug\qualifcs.Properties.Resources.resources
+C:\Users\flangelier\code\ets\cs\qualif_csgames_2015\qualifcs\qualifcs\obj\Debug\qualifcs.csproj.GenerateResource.Cache
+C:\Users\flangelier\code\ets\cs\qualif_csgames_2015\qualifcs\qualifcs\obj\Debug\qualifcs.exe
+C:\Users\flangelier\code\ets\cs\qualif_csgames_2015\qualifcs\qualifcs\obj\Debug\qualifcs.pdb
+C:\Users\flangelier\code\ets\cs\qualif_csgames_2015\qualifcs\qualifcs\obj\Debug\qualifcs.Form1.resources
