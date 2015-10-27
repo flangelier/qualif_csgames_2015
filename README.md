@@ -1,4 +1,4 @@
-# Qualification CS Games 2015
+idsadasdsad# Qualification CS Games 2015
 
 Ce répertoire contient tous les détails nécessaires pour les qualifications de
 la DCI pour les CS Games 2015.
